@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-apostas"
+version = "0.1.0"
+description = ""
+authors = ["Igor Martins <igormartins0301@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.1"
+django-ninja = "^1.1.0"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
+lightgbm = "^4.3.0"
+djangorestframework-simplejwt = "^5.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
